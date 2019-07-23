@@ -1,5 +1,5 @@
 <?php
-$link = mysqli_connect("localhost", "root", "Csharp92", "databas");
+$link = mysqli_connect("localhost", "root", "", "db");
 $username = mysqli_real_escape_string($link, $_POST['username']); 
 $password = mysqli_real_escape_string($link, $_POST['password']); 
 
